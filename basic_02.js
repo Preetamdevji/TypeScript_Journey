@@ -4,7 +4,6 @@
 // what is watch mode    ------>    --w
 // run without browser   ------>    node  
 // let/const conversation      ------>    if any browser not support let or const then var will work fine
-
 Object.defineProperty(exports, "__esModule", { value: true });
 var App = /** @class */ (function () {
     function App() {
@@ -14,6 +13,6 @@ var App = /** @class */ (function () {
     };
     return App;
 }());
-
+;
 var result = new App();
 result.test();
